@@ -7,3 +7,5 @@ const input = 2
 const safeDbl = safeLift(isNumber, dbl)
 
 const result = safeDbl(input).option(0) /*?*/
+
+console.log(result)

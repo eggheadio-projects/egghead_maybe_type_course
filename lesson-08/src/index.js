@@ -12,3 +12,5 @@ const getDefaultFromNothing = getDefaultPageUrl(abFlag) /*?*/
 const url = getArticleName(article)
   .coalesce(getDefaultFromNothing, createUrl)
   .option('default') /*?*/
+
+console.log(url)

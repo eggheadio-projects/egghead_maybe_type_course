@@ -1,5 +1,5 @@
 const propPath = require('crocks/Maybe/propPath')
-const { getUser } = require('./service')
+const { getUser } = require('../service')
 
 const getPostalCode = propPath(['address', 'postalCode'])
 

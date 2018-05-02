@@ -22,3 +22,6 @@ const getUrlOrWoops = compose(
 )
 
 const url = getUrlOrWoops(article) /*?*/
+
+
+console.log(url)

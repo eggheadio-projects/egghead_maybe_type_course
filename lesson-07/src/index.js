@@ -22,3 +22,5 @@ const getArticleName = obj =>
 const url = getArticleName(article)
   .map(createUrlFromName)
   .option('default') /*?*/
+
+console.log(url)

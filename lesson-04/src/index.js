@@ -12,3 +12,5 @@ const qs = { page: 4, pageSize: 10, totalPages: 203 }
 const safePage = prop('page')
 const page = safePage(qs)
 const nextPage = page.map(inc).option(1) /*?*/
+
+console.log(nextPage)

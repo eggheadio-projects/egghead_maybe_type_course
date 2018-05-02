@@ -13,3 +13,5 @@ const user = {
 
 const getPostalCode = propPath(['address', 'postalCode'])
 const zip = getPostalCode(user).option('not available') /*?*/
+
+console.log(zip)

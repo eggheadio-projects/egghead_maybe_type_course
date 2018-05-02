@@ -15,3 +15,5 @@ const add = a => b => a + b
 // safeAdd using liftA2
 const safeAdd = liftA2(add)
 safeAdd(safeNum1, safeNum2) /*?*/
+
+console.log(safeAdd(safeNum1, safeNum2))
