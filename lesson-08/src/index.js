@@ -1,5 +1,5 @@
 const Maybe = require('crocks/Maybe')
-const { createUrl, getDefaultPageUrl, getArticleName } = require('./utils')
+const { createUrl, getDefaultPageUrl, getArticleName } = require('../utils')
 
 const article = {
   id: 1,

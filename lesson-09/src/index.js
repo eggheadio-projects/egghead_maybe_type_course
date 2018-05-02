@@ -1,6 +1,6 @@
 const crocks = require('crocks')
 const { Maybe, prop, safe, compose, chain, alt, map, option } = crocks
-const { createUrl, isNonEmptyString } = require('./utils')
+const { createUrl, isNonEmptyString } = require('../utils')
 
 const article = {
   id: 1,
